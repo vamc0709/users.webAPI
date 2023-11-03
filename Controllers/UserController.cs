@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace users.webAPI.Controllers;
 
+[Route("api/user")]
 [ApiController]
-[Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+public class UserController : ControllerBase
 {
-    
+
 }
